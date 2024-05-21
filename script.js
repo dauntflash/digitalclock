@@ -14,7 +14,7 @@ function padder(value){
 }
 
 function watch(){
-    const hourTime=new Date().getHours();
+    let hourTime=new Date().getHours();
     const minuteTime=new Date().getMinutes();
     const secondTime=new Date().getSeconds();
 
